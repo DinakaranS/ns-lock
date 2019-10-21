@@ -13,7 +13,7 @@ This component should be mounted as far out as you need it. In many cases, this 
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
-import { AuthProvider } from "react-auth0-lock";
+import { AuthProvider } from "ns-lock";
 
 import App from "./App";
 
@@ -54,7 +54,7 @@ Used for consuming authentication _anywhere_ in your application. This should al
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
-import { AuthConsumer } from "react-auth0-lock";
+import { AuthConsumer } from "ns-lock";
 
 export default class App extends React.Component {
   render() {
@@ -122,7 +122,7 @@ A higher-order-component (HOC) which injects the the above `auth` object from `A
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
-import { withAuth } from "react-auth0-lock";
+import { withAuth } from "ns-lock";
 
 class App extends React.Component {
   render() {
