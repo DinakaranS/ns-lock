@@ -1,6 +1,6 @@
 {
-  "name": "react-auth0-lock",
-  "author": "Jan Hartmann <kontakt@janhartmann.dk>",
+  "name": "ns-lock",
+  "author": "Dinakaran S",
   "license": "MIT",
   "version": "1.0.0",
   "description": "React wrapper for Auth0 Lock using React Context API",
@@ -14,10 +14,10 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/janhartmann/react-auth0-lock.git"
+    "url": "https://github.com/DinakaranS/ns-lock.git"
   },
   "bugs": {
-    "url": "https://github.com/janhartmann/react-auth0-lock/issues"
+    "url": "https://github.com/DinakaranS/ns-lock/issues"
   },
   "scripts": {
     "build": "babel src/ --out-dir lib/"
