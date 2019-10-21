@@ -2,7 +2,7 @@
   "name": "ns-lock",
   "author": "Dinakaran S",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "React wrapper for Auth0 Lock using React Context API",
   "keywords": [
     "react",
